@@ -1,4 +1,4 @@
-<?php require_once("../../includes/initialize.php"); ?>
+<?php require_once("../../includes/initialize.php"); ?> <!-- cant use in this case LIB_PATH CONSTANT becouse it is not defined until page initialize.php is load -->
 
 
 <?php

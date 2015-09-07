@@ -6,12 +6,13 @@
 	}
 
 
-
+	// Include Helper Function
 	function include_layout_template($template) {
-		return include(SITE_ROOT.DS."public".DS."layouts".DS.$template.".php");
+		return include(SITE_ROOT.DS."public".DS."layouts".DS.$template.".php");   
 	}
 
 
+	// Function for geting current record
 	function selected_page() {
 		global $current_subject;
 		global $current_page;

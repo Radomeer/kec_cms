@@ -5,8 +5,6 @@
 
 	class DatabaseObjects {
 
-		// protected static $table_fields;
-		protected static $table_name;
 
 
 
